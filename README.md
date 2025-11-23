@@ -1,4 +1,4 @@
-# wajik-anime-api
+# aishianime-api
 
 REST API streaming dan download Anime subtitle Indonesia dari berbagai sumber
 
@@ -7,8 +7,8 @@ REST API streaming dan download Anime subtitle Indonesia dari berbagai sumber
 API ini unofficial jadi kaga ada kaitan dengan sumber yang tersedia...
 MOHON IZIN ABANG SUMBER, sumber bisa bertambah, req/dm rekomendasi situs yang bagus
 
-1. otakudesu: https://otakudesu.cloud
-2. samehadaku: https://samehadaku.mba
+1. otakudesu: https://otakudesu.best
+2. samehadaku: https://v1.samehadaku.how
 
 - domain sering berubah jangan lupa pantau terus untuk edit url ada di di "src/configs/animeConfig.ts"
 
@@ -19,10 +19,10 @@ MOHON IZIN ABANG SUMBER, sumber bisa bertambah, req/dm rekomendasi situs yang ba
 
 ```sh
 # clone repo
-git clone https://github.com/wajik45/wajik-anime-api.git
+git clone https://github.com/ranimev3/aishianime-api.git
 
 # masuk repo
-cd wajik-anime-api
+cd aishianime-api
 
 # install dependensi
 npm install
