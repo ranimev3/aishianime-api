@@ -1,9 +1,15 @@
+const getProxyPrefix = () => {
+  const proxy = process.env.PROXY_URL;
+  if (!proxy) return '';
+  return proxy.endsWith('/') ? proxy : `${proxy}/`;
+};
+
 const animeConfig = {
   PORT: 3001,
 
   baseUrl: {
-    otakudesu: "https://otakudesu.best",
-    samehadaku: "https://v1.samehadaku.how",
+    otakudesu: `${getProxyPrefix()}https://otakudesu.best`,
+    samehadaku: `${getProxyPrefix()}https://v1.amehadaku.how`,
   },
 
   response: {
